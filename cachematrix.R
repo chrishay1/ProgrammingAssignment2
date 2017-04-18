@@ -1,9 +1,9 @@
-##This script creates 2 functions; makeCacheMatriX and cacheSolve
-##makeCachematriX(X) caches the inverse of a matriX X (using the solve function)
+##This script creates 2 functions; makeCacheMatrix and cacheSolve
+##makeCacheMatrix(X) caches the inverse of a matrix X (using the solve function)
 ##cachesolve then looks to see if the inverse has already been calculated. 
 ##If so, it gets the inverse from the cache, and calculates it if not
 
-##create the makeCacheMatriX function
+##create the makeCacheMatrix function
 
 
 makeCacheMatrix <- function(X = numeric()) {
